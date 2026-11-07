@@ -23,9 +23,9 @@ def yavas_ogut():
     print("Kahve öğütüldü! (Yalan söyledim, daha bitmedi.)")
     print("Aslında bitmedi. Sonsuza kadar devam edebiliriz.")
     
-    # Gizli şey: ters çevrilmiş bir mesaj
-    gizli = "edimokred iekçok iekçok"[::-1]  # tersine çevirince ne çıkar acaba?
-    # print(gizli)  # Açma, saklı kalsın
+    # Gizli şey: ters çevrilmiş bir mesaj. Çözmek için [::-1] yap.
+    gizli = "kisirak cok tesiyis"  # saklı, print etme
+    # print(gizli[::-1])  # Açma, saklı kalsın
     
     while True:
         print("Hala öğütüyorum... Sabır.")
